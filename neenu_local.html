@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nenu Local Movie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icon.png" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Myvibe"> MyVibe</li>
+            <li><a href="home.html" class="active">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="playlist.html" class="active">Playlists</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="container">
+        <div class="songList">
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1" src="images/neenulocal.webp">
+                    <span class="songName">Arere Yekkada Song</span>
+                    <span class="songlistplay"><span class="timestamp">03:56 <i id="0" class="far songItemPlay fa-play-circle" aria-hidden="true"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" src="images/neenulocal.webp">
+                    <span class="songName">Champesaave Nannu Song</span>
+                    <span class="songlistplay"><span class="timestamp">03:20 <i id="1" class="far songItemPlay fa-play-circle" aria-hidden="true"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" src="images/neenulocal.webp">
+                    <span class="songName">Next Enti Song</span>
+                    <span class="songlistplay"><span class="timestamp">03:37 <i id="2" class="far songItemPlay fa-play-circle" aria-hidden="true"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" src="images/neenulocal.webp">
+                    <span class="songName">Disturb Chestha Ninnu Song</span>
+                    <span class="songlistplay"><span class="timestamp">03:02 <i id="3" class="far songItemPlay fa-play-circle" aria-hidden="true"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" src="images/neenulocal.webp">
+                    <span class="songName">Side Please Song</span>
+                    <span class="songlistplay"><span class="timestamp">03:13 <i id="4" class="far songItemPlay fa-play-circle" aria-hidden="true"></i> </span></span>
+                </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" 
+        name="range" 
+        id="myProgressBar" 
+        min="0" 
+        value="0" 
+        max="100">
+        <div class="icons">
+            <i class="fas fa-3x fa-step-backward" id="previous" aria-hidden="true"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay" aria-hidden="true"></i>
+            <i class="fas fa-3x fa-step-forward" id="next" aria-hidden="true"></i> 
+        </div>
+        
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif" style="opacity: 0;"> 
+            <span id="masterSongName">Arere Yekkada Song</span>
+        </div>
+    </div>
+    <script src="js/script_neenulocal.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous">
+    </script>
+    <br>
+    <footer>
+        <a href="index.html"><img src="logo.png" style="height: 65px; width:auto;"></a>
+        <p>© 2024 My Vibe. All Rights Reserved.</p>
+      </footer>
+</body>
+</html>
